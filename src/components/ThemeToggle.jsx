@@ -18,8 +18,8 @@ export default function ThemeToggle({ onChange }){
   }
 
   return (
-    <button onClick={toggle} className="btn" aria-label="Toggle theme">
-      {light ? <Moon size={18}/> : <Sun size={18}/>}
+    <button  style={{color:light ? "black" : "white"}} onClick={toggle} className="btn" aria-label="Toggle theme">
+      {light ? <Moon size={18}/> : <Sun  color='white' size={18}/>}
       {light ? 'Dark' : 'Light'}
     </button>
   )

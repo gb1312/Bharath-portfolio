@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion'
+// import profilePic from '../assets/profile.jpg';
+
 
 export default function Home(){
   return (
     <header className="section" style={{paddingTop:120,paddingBottom:80}}>
-      <div className="container" style={{display:'grid', gap:28, gridTemplateColumns:'1.1fr 1fr', alignItems:'center'}}>
+      <div className="container home" style={{display:'grid', gap:28, gridTemplateColumns:'1.1fr 1fr', alignItems:'center'}}>
         <div>
           <motion.h1
             initial={{ opacity: 0, y: 26 }}
@@ -39,19 +41,19 @@ export default function Home(){
           transition={{ duration: .8 }}
           style={{display:'grid', placeItems:'center'}}
         >
-          {/* <div className="ring">
+          
             <img 
               src="/assets/profile.jpg" 
               alt="Bharathraaj" 
               style={{
-                width: '100%',
+                width: '80%',
                 height: '100%',
                 borderRadius: '50%',
                 objectFit: 'cover',
                 border: '4px solid var(--surface)'
               }}
             />
-          </div> */}
+          
         </motion.div>
       </div>
     </header>
