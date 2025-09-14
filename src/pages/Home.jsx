@@ -13,13 +13,12 @@ export default function Home(){
             transition={{ duration: .7 }}
             style={{fontSize:'3.3rem', lineHeight:1.08, margin:'0 0 10px'}}
           >
-            Hi, I’m <span style={{color:'var(--accent-b)'}}>Bharathraaj</span> —
+            Hi, I’m <span style={{color:'var(--accent-b)'}}>Bharathraaj</span> <br></br>
             I craft <em style={{fontStyle:'normal', color:'var(--accent-c)'}}>production-grade</em> AI/ML systems.
           </motion.h1>
 
           <motion.p className="mute" initial={{opacity:0}} animate={{opacity:1}} transition={{delay:.15}}>
-            Graduate Data Science student (GPA 3.9/4.0) with 2.5+ years delivering scalable models.
-            Ex-TCS Big Data & AI: Spark, Kafka, TensorFlow/PyTorch, Kubernetes, AWS/GCP.
+            Graduate Data Science student @ University at Buffalo (GPA 3.9/4.0) with 2.5+ years delivering scalable models • Ex-TCS Big Data AI Developer • ML Infrastructure & GenAI • Seeking Full Time Dec ’26
           </motion.p>
 
           <div style={{display:'flex', gap:12, marginTop:26, flexWrap:'wrap'}}>
@@ -29,7 +28,7 @@ export default function Home(){
 
           <hr className="soft"/>
           <div className="badges">
-            {['Spark','Kafka','TensorFlow','PyTorch','Kubernetes','AWS','GCP'].map(tag => (
+            {['Spark','TensorFlow','PyTorch','Kubernetes','GCP','SQL','LangChain/LLMs'].map(tag => (
               <span key={tag} className="badge">{tag}</span>
             ))}
           </div>

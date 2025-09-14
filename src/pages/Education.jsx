@@ -3,7 +3,7 @@ import Section from '../components/SectionWrapper.jsx'
 const schools = [
   {
     name: "University at Buffalo, The State University of New York",
-    degree: "MPS, Data Sciences and Applications (GPA: 3.9/4.0)",
+    degree: "MPS, Data Sciences and Applications (GPA: 3.9/4.0) Courses:Statistical Data Mining, ML, DBMS, Cybersecurity/ CDA 500: industry MVP project /Grader: EAS 230 – Engineering Computations (MATLAB/DSA) ",
     when: "Aug 2024 — Dec 2025",
   },
   {
