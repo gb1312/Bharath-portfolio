@@ -17,9 +17,9 @@ export default function Contact(){
           const body = encodeURIComponent(data.get('message'));
           window.location.href = `mailto:bharathraajnagarajan@gmail.com?subject=${subject}&body=${body}`;
         }} style={{display:'grid', gap:12, maxWidth: 640}}>
-          <input required name="name" placeholder="Your name" className="card" style={{padding:12, border:'1px solid var(--surface)', borderRadius:12}}/>
-          <input required name="topic" placeholder="Topic" className="card" style={{padding:12, border:'1px solid var(--surface)', borderRadius:12}}/>
-          <textarea required name="message" placeholder="Message" rows="6" className="card" style={{padding:12, border:'1px solid var(--surface)', borderRadius:12}}/>
+          <input required name="name" placeholder="Your name" className="card" style={{padding:12, border:'1px solid var(--surface)', borderRadius:12 }}/>
+          <input required name="topic" placeholder="Topic" className="card" style={{padding:12, border:'1px solid var(--surface)', borderRadius:12 }}/>
+          <textarea required name="message" placeholder="Message" rows="6" className="card" style={{padding:12, border:'1px solid var(--surface)', borderRadius:12} }/>
           <button className="btn btn-primary" type="submit">Send Email</button>
         </form>
       </div>
