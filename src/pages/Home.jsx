@@ -18,7 +18,7 @@ export default function Home(){
           </motion.h1>
 
           <motion.p className="mute" initial={{opacity:0}} animate={{opacity:1}} transition={{delay:.15}}>
-            Graduate Data Science student @ University at Buffalo (GPA 3.9/4.0) with 2.5+ years delivering scalable models • Ex-TCS Big Data AI Developer • ML Infrastructure & GenAI • Seeking Full Time Dec ’26
+            Graduate Data Science student @ University at Buffalo (GPA 3.9/4.0) with 2.5+ years delivering scalable models • Ex-TCS Big Data AI Developer • ML Infrastructure & GenAI • Seeking Full Time Dec ’25
           </motion.p>
 
           <div style={{display:'flex', gap:12, marginTop:26, flexWrap:'wrap'}}>
